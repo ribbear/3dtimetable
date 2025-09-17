@@ -75,8 +75,8 @@ Ellenőrizd, hogy van-e aktív grafikus megjelenítő (pl. X server), vagy futta
 A generált `.scad` fájlokat másold át a felhasználói könyvtárba, szükség esetén állítsd be a megfelelő jogosultságokat:
 
 ```bash
-cp dani_orarend_kidombor.scad /home/ribbear/
-chown ribbear:ribbear /home/ribbear/dani_orarend_kidombor.scad
+cp dani_orarend_kidombor.scad /home/Xowner/
+chown Xowner:Xowner /home/ribbear/dani_orarend_kidombor.scad
 ```
 
 ## Kilépés a virtuális környezetből
