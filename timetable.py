@@ -87,7 +87,7 @@ text("{text}", size = {text_size}, halign = "center", valign = "center", font = 
 
 # Dani órarendje
 schedule_data = {
-    'Időpont': [köznapok, '8:00', '9:00', '10:00', '11:00', '12:15', '13:15', '14:15', '15:15'],
+    'Időpont': ['hétköznapok', '8:00', '9:00', '10:00', '11:00', '12:15', '13:15', '14:15', '15:15'],
     'Hétfő': ['Hétfő', 'nyelvtan', 'matek', 'tesi', 'fogalmazás', 'digit kult', 'ebéd', 'angol tg', ''],
     'Kedd': ['Kedd', 'tesi', 'Angol', 'matek', 'etika', 'ének', 'ének fejlesztés', 'matek fejl.', ''],
     'Szerda': ['Szerda', 'környezet', 'tesi', 'angol', 'matek', 'irodalom', 'digit kult tg', '', ''],
