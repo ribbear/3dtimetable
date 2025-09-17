@@ -97,4 +97,22 @@ openscad --render --export-format 3mf dani_orarend_kidombor.scad -o dani_orarend
 
 Ez az útmutató lefedi a projekt futtatásának és a főbb hibák megoldásának lépéseit a terminál alapú környezethez.
 
-Szükség esetén segítek a README fájl vagy további dokumentáció elkészítésében is.
+OpenSCAD renderelési visszajelzés (példa)
+
+Rendereléskor az OpenSCAD hasonló statisztikákat ad vissza:
+```bash
+Geometries in cache: 131
+Geometry cache size in bytes: 12520696
+CGAL Polyhedrons in cache: 4
+CGAL cache size in bytes: 66456304
+Total rendering time: 0:09:05.413
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    48792
+   Halfedges:  146428
+   Edges:       73214
+   Halffacets:  49800
+   Facets:      24900
+   Volumes:         2
+```
+***
