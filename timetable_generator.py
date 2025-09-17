@@ -1,13 +1,13 @@
 import pandas as pd
 
-# Dani órarendje
+# régebbi kód
 schedule_data = {
-    'Időpont': ['8:00', '9:00', '10:00', '11:00', '12:15', '13:15', '14:15', '15:15', '16:00'],
-    'Hétfő': ['nyelvtan', 'matek', 'tesi', 'fogalmazás', 'digitális kultúra', 'ebéd/házi', 'angol tg', 'uzsonna/házi/udvar', 'nap vége'],
-    'Kedd': ['tesi', 'Angol', 'matek', 'etika', 'ének', 'ének fejlesztés', 'matek fejlesztés', 'udvar', ''],
-    'Szerda': ['környezet', 'tesi', 'angol', 'matek', 'irodalom', 'digitális kultúra tg', '', 'házi', ''],
-    'Csütörtök': ['vizuális kultúra', 'irodalom', 'technika', 'matek', 'tesi', 'digitális kultúra tg', '', 'házi', ''],
-    'Péntek': ['tesi', 'angol', 'nyelvtan', 'irodalom', 'ének', 'szövegértés', 'mesedélután', 'udvar', '']
+    'Időpont': ['hétköznapok', '8:00', '9:00', '10:00', '11:00', '12:15', '13:15', '14:15', '15:15'],
+    'Hétfő': ['Hétfő', 'nyelvtan', 'matek', 'tesi', 'fogalmazás', 'digitális kultúra', 'ebéd/házi', 'angol tg', ''],
+    'Kedd': ['Kedd', 'tesi', 'Angol', 'matek', 'etika', 'ének', 'ének fejlesztés', 'matek fejlesztés', '', ''],
+    'Szerda': ['Szerda', 'környezet', 'tesi', 'angol', 'matek', 'irodalom', 'dk tg', '', '', ''],
+    'Csütörtök': ['Csütörtök', 'vizuális kultúra', 'irodalom', 'technika', 'matek', 'tesi', 'dk tg', '', '', ''],
+    'Péntek': ['Péntek', 'tesi', 'angol', 'nyelvtan', 'irodalom', 'ének', 'szövegértés', 'mesedélután', '', '']
 }
 
 df = pd.DataFrame(schedule_data)
