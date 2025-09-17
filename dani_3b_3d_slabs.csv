@@ -1,0 +1,49 @@
+time,day,text,thickness
+8:00,Hétfő,nyelvtan,2.0
+8:00,Kedd,tesi,2.0
+8:00,Szerda,környezet,2.0
+8:00,Csütörtök,vizuális kultúra,2.0
+8:00,Péntek,tesi,2.0
+9:00,Hétfő,matek,2.0
+9:00,Kedd,Angol,2.0
+9:00,Szerda,tesi,2.0
+9:00,Csütörtök,irodalom,2.0
+9:00,Péntek,angol,2.0
+10:00,Hétfő,tesi,2.0
+10:00,Kedd,matek,2.0
+10:00,Szerda,angol,2.0
+10:00,Csütörtök,technika,2.0
+10:00,Péntek,nyelvtan,2.0
+11:00,Hétfő,fogalmazás,2.0
+11:00,Kedd,etika,2.0
+11:00,Szerda,matek,2.0
+11:00,Csütörtök,matek,2.0
+11:00,Péntek,irodalom,2.0
+12:15,Hétfő,digitális kultúra,2.0
+12:15,Kedd,ének,2.0
+12:15,Szerda,irodalom,2.0
+12:15,Csütörtök,tesi,2.0
+12:15,Péntek,ének,2.0
+13:15,Hétfő,"ebéd
+házi",2.0
+13:15,Kedd,ének fejlesztés,2.0
+13:15,Szerda,digitális kultúra tg,2.0
+13:15,Csütörtök,digitális kultúra tg,2.0
+13:15,Péntek,szövegértés,2.0
+14:15,Hétfő,angol tg,2.0
+14:15,Kedd,matek fejlesztés,2.0
+14:15,Szerda,,2.0
+14:15,Csütörtök,,2.0
+14:15,Péntek,mesedélután,2.0
+15:15,Hétfő,"uzsonna
+házi
+udvar",2.0
+15:15,Kedd,udvar,2.0
+15:15,Szerda,házi,2.0
+15:15,Csütörtök,házi,2.0
+15:15,Péntek,udvar,2.0
+16:00,Hétfő,nap vége,2.0
+16:00,Kedd,,2.0
+16:00,Szerda,,2.0
+16:00,Csütörtök,,2.0
+16:00,Péntek,,2.0
