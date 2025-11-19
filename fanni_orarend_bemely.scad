@@ -48,23 +48,23 @@ text("8:00", size = 3, halign = "center", valign = "center", font = "Liberation 
 
 translate([40.5, 60.0, 1.6])
 linear_extrude(height = 0.5)
-text("nyelvtan", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("környezet", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([67.5, 60.0, 1.6])
 linear_extrude(height = 0.5)
-text("tesi", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("angol", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([94.5, 60.0, 1.6])
 linear_extrude(height = 0.5)
-text("környezet", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("matek", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([121.5, 60.0, 1.6])
 linear_extrude(height = 0.5)
-text("viz kult", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("ének", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([148.5, 60.0, 1.6])
 linear_extrude(height = 0.5)
-text("tesi", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("rajz", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([13.5, 52.0, 1.6])
 linear_extrude(height = 0.5)
@@ -72,23 +72,23 @@ text("9:00", size = 3, halign = "center", valign = "center", font = "Liberation 
 
 translate([40.5, 52.0, 1.6])
 linear_extrude(height = 0.5)
-text("matek", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("irodalom", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([67.5, 52.0, 1.6])
 linear_extrude(height = 0.5)
-text("Angol", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("magyar", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([94.5, 52.0, 1.6])
 linear_extrude(height = 0.5)
-text("tesi", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("ének", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([121.5, 52.0, 1.6])
 linear_extrude(height = 0.5)
-text("irodalom", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("matek", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([148.5, 52.0, 1.6])
 linear_extrude(height = 0.5)
-text("angol", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("rajz", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([13.5, 44.0, 1.6])
 linear_extrude(height = 0.5)
@@ -96,23 +96,23 @@ text("10:00", size = 3, halign = "center", valign = "center", font = "Liberation
 
 translate([40.5, 44.0, 1.6])
 linear_extrude(height = 0.5)
-text("tesi", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("matek", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([67.5, 44.0, 1.6])
 linear_extrude(height = 0.5)
-text("matek", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("etika", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([94.5, 44.0, 1.6])
 linear_extrude(height = 0.5)
-text("angol", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("technika", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([121.5, 44.0, 1.6])
 linear_extrude(height = 0.5)
-text("technika", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("angol", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([148.5, 44.0, 1.6])
 linear_extrude(height = 0.5)
-text("nyelvtan", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("tesi", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([13.5, 36.0, 1.6])
 linear_extrude(height = 0.5)
@@ -120,23 +120,23 @@ text("11:00", size = 3, halign = "center", valign = "center", font = "Liberation
 
 translate([40.5, 36.0, 1.6])
 linear_extrude(height = 0.5)
-text("fogalmazás", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("irodalom", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([67.5, 36.0, 1.6])
 linear_extrude(height = 0.5)
-text("etika", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("tesi", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([94.5, 36.0, 1.6])
 linear_extrude(height = 0.5)
-text("matek", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("magyar", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([121.5, 36.0, 1.6])
 linear_extrude(height = 0.5)
-text("matek", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("tesi", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([148.5, 36.0, 1.6])
 linear_extrude(height = 0.5)
-text("irodalom", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("matek", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([13.5, 28.0, 1.6])
 linear_extrude(height = 0.5)
@@ -144,63 +144,35 @@ text("12:15", size = 3, halign = "center", valign = "center", font = "Liberation
 
 translate([40.5, 28.0, 1.6])
 linear_extrude(height = 0.5)
-text("digit kult", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("tesi", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([67.5, 28.0, 1.6])
 linear_extrude(height = 0.5)
-text("ének", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("napközi", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([94.5, 28.0, 1.6])
 linear_extrude(height = 0.5)
-text("irodalom", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("tesi", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([121.5, 28.0, 1.6])
 linear_extrude(height = 0.5)
-text("tesi", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
-
-translate([148.5, 28.0, 1.6])
-linear_extrude(height = 0.5)
-text("ének", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("napközi", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([13.5, 20.0, 1.6])
 linear_extrude(height = 0.5)
 text("13:15", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
-translate([40.5, 20.0, 1.6])
-linear_extrude(height = 0.5)
-text("ebéd", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
-
 translate([67.5, 20.0, 1.6])
 linear_extrude(height = 0.5)
-text("ének fejlesztés", size = 2.7, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
-
-translate([94.5, 20.0, 1.6])
-linear_extrude(height = 0.5)
-text("digit kult tg", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("digit kult.", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([121.5, 20.0, 1.6])
 linear_extrude(height = 0.5)
-text("digit kult tg", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
-
-translate([148.5, 20.0, 1.6])
-linear_extrude(height = 0.5)
-text("szövegértés", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
+text("irodalom", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([13.5, 12.0, 1.6])
 linear_extrude(height = 0.5)
 text("14:15", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
-
-translate([40.5, 12.0, 1.6])
-linear_extrude(height = 0.5)
-text("angol tg", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
-
-translate([67.5, 12.0, 1.6])
-linear_extrude(height = 0.5)
-text("matek fejl.", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
-
-translate([148.5, 12.0, 1.6])
-linear_extrude(height = 0.5)
-text("mese", size = 3, halign = "center", valign = "center", font = "Liberation Sans:style=Bold");
 
 translate([13.5, 4.0, 1.6])
 linear_extrude(height = 0.5)

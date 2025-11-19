@@ -1,7 +1,7 @@
 import pandas as pd
 
 class TimetableSTLGenerator:
-    def __init__(self, thickness=2.0, cell_width=25, cell_height=8, text_depth=0.4):
+    def __init__(self, thickness=2.0, cell_width=27, cell_height=8, text_depth=0.4):
         self.thickness = thickness
         self.cell_width = cell_width
         self.cell_height = cell_height
@@ -74,7 +74,7 @@ text("{text}", size = {text_size}, halign = "center", valign = "center", font = 
         
         return scad_code
     
-    def save_scad_file(self, schedule_data, filename="dani_orarend.scad", raised_text=True):
+    def save_scad_file(self, schedule_data, filename="fanni_orarend.scad", raised_text=True):
         scad_code = self.generate_openscad_code(schedule_data, raised_text)
         with open(filename, 'w', encoding='utf-8') as f:
             f.write(scad_code)
@@ -85,22 +85,22 @@ text("{text}", size = {text_size}, halign = "center", valign = "center", font = 
         print("3. Render (F6)")
         print("4. Export STL (F7)")
 
-# Dani órarendje
+# Fanni órarendje
 schedule_data = {
-    'Időpont': ['hétköznapok', '8:00', '9:00', '10:00', '11:00', '12:15', '13:15', '14:15', '15:15'],
-    'Hétfő': ['Hétfő', 'nyelvtan', 'matek', 'tesi', 'fogalmazás', 'digit kult', 'ebéd', 'angol tg', ''],
-    'Kedd': ['Kedd', 'tesi', 'Angol', 'matek', 'etika', 'ének', 'ének fejlesztés', 'matek fejl.', ''],
-    'Szerda': ['Szerda', 'környezet', 'tesi', 'angol', 'matek', 'irodalom', 'digit kult tg', '', ''],
-    'Csütörtök': ['Csütörtök', 'viz kult', 'irodalom', 'technika', 'matek', 'tesi', 'digit kult tg', '', ''],
-    'Péntek': ['Péntek', 'tesi', 'angol', 'nyelvtan', 'irodalom', 'ének', 'szövegértés', 'mesedélután', '']
+    'Időpont': ['', '8:00', '9:00', '10:00', '11:00', '12:15', '13:15', '14:15', '15:15'],
+    'Hétfő': ['Hétfő', 'környezet', 'irodalom', 'matek', 'irodalom', 'tesi', '', '', ''],
+    'Kedd': ['Kedd', 'angol', 'magyar', 'etika', 'tesi', 'napközi', 'digit kult.', '', ''],
+    'Szerda': ['Szerda', 'matek', 'ének', 'technika', 'magyar', 'tesi', '', '', ''],
+    'Csütörtök': ['Csütörtök', 'ének', 'matek', 'angol', 'tesi', 'napközi', 'irodalom', '', ''],
+    'Péntek': ['Péntek', 'rajz', 'rajz', 'tesi', 'matek', '', '', '', '']
 }
 
 # Generálás
 generator = TimetableSTLGenerator()
 
 # Kidomborodó betűkkel
-generator.save_scad_file(schedule_data, "dani_orarend_kidombor.scad", raised_text=True)
+generator.save_scad_file(schedule_data, "fanni_orarend_kidombor.scad", raised_text=True)
 
 # Bemélyedő betűkkel  
-generator.save_scad_file(schedule_data, "dani_orarend_bemely.scad", raised_text=False)
+generator.save_scad_file(schedule_data, "fanni_orarend_bemely.scad", raised_text=False)
 
