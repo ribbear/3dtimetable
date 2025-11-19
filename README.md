@@ -1,9 +1,23 @@
 ***
 
 # Timetable Projekt - Felhasználói Útmutató
+A projektet wslben valósítottam meg.
+előfeltétel néhány csomag telepítése.
+```bash
+apt install openscad
+apt install pipx
+mkdir timetable
+cd timetable
+```
+
+
+## Virtuális környezet kialakítása
+A virtuális környezeteben telepített python csomagok csak a virtuális környezetben települnek, így nem befolyáolják a host gép python környezetét, és így több python körneyzet is létrehozható.
+```bash
+python3 -m venv venv
+```
 
 ## Virtuális környezet aktiválása
-
 A projekt gyökérkönyvtárában futtasd:
 
 ```bash
@@ -12,10 +26,25 @@ source venv/bin/activate
 
 A prompt így változik:
 
-```
+```bash
 (venv) root@AlienwareX17NyCs:~/timetable#
 ```
-
+## A Python csaomgok telepítése a virtuális environmentben
+```bash
+pipx install pandas
+```
+## Szerkesszük az órarendet.
+Megnyitva a timetable.py fájlt pl vi-al. a fájl aljára menve, megtlaáljuk az órarendet.
+```bash
+schedule_data = {
+    'Időpont': ['', '8:00', '9:00', '10:00', '11:00', '12:15', '13:15', '14:15', '15:15'],
+    'Hétfő': ['Hétfő', 'Töri', 'Fizika', 'Matek', 'Angol', 'Tesi', 'Irodalom', 'Matek TG', ''],
+    'Kedd': ['Kedd', 'Matek', 'Rajz', 'Nyefi', 'Föci', 'Tesi', 'Kémia', '', ''],
+    'Szerda': ['Szerda', 'Matek', 'Töri', 'Kémia', 'Etika', 'Angol', 'Tesi', 'Nyefi', ''],
+    'Csütörtök': ['Csütörtök', 'Biosz', 'Föci', 'Info', 'Fizika', 'Tesi', 'Államp. ism.', '', ''],
+    'Péntek': ['Péntek', 'Irodalom', 'Tesi', 'Matek', 'Ének', 'Angol', 'Köz. nev.', '', '']
+}
+```
 ## A Python script futtatása
 
 Indítsd el a heti órarend-generáló scriptet:
@@ -51,10 +80,17 @@ A script lefutása után a következő OpenSCAD fájlok keletkeznek:
 
 A további lépések:
 
-1. Telepítsd az OpenSCAD szoftvert.
-2. Nyisd meg a `.scad` fájlokat az OpenSCAD-ban.
-3. Rendereld a modellt az F6 billentyűvel.
-4. Exportáld STL formátumban az F7 billentyűvel.
+1. Telepítsd az OpenSCAD szoftvert. (Ha még nem történt meg)
+2. Nyisd meg a `.scad` fájlokat az OpenSCAD-el.
+```bash
+export DISPLAY=$(ip route list default | awk '{print $3}'):0
+export LIBGL_ALWAYS_INDIRECT=1
+export LIBGL_ALWAYS_SOFTWARE=1
+export QT_XCB_GL_INTEGRATION=none
+export QT_QUICK_BACKEND=software
+export QT_OPENGL=software
+openscad --render --export-format 3mf fanni_orarend_kidombor.scad -o fanni_orarend.3mf
+```
 
 ## Qt platform plugin hiba megoldása
 
@@ -68,15 +104,15 @@ Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, 
 Aborted (core dumped)
 ```
 
-Ellenőrizd, hogy van-e aktív grafikus megjelenítő (pl. X server), vagy futtasd az OpenSCAD-ot grafikus környezetben.
+Ellenőrizd, hogy van-e aktív grafikus megjelenítő (pl. X server), pl használj mobaxtermet, az wslhez is tud csatlakozni.
 
 ## File-másolás és jogosultságok beállítása
 
 A generált `.scad` fájlokat másold át a felhasználói könyvtárba, szükség esetén állítsd be a megfelelő jogosultságokat:
 
 ```bash
-cp dani_orarend_kidombor.scad /home/Xowner/
-chown Xowner:Xowner /home/ribbear/dani_orarend_kidombor.scad
+cp fanni_orarend_kidombor.scad /home/Xowner/
+chown Xowner:Xowner /home/Xowner/fanni_orarend_kidombor.scad
 ```
 
 ## Kilépés a virtuális környezetből
